@@ -1,0 +1,252 @@
+        .bodyCenter {
+            margin: auto;
+            width: 100%;
+            height: 100%;
+            /*padding: 10px;*/
+        }
+
+        .footerdiv {
+            position: absolute;
+            margin-top: 1680px; /* negative value of footer height */
+            height: 120px;
+            background-color: ghostwhite;
+            width: 100%;
+        }
+
+        .Topcontainerdiv {
+            border: 0;
+            float: left;
+            position: relative;
+            top: -310px;
+            left: 722px;
+            font-family: myFirstFont;
+        }
+
+        .blackDot {
+            border: 0;
+            position: absolute;
+            top: 420px;
+            right: 150px;
+        }
+
+        .whiteDotTop {
+            border: 0;
+            position: absolute;
+            top: 200px;
+            right: 150px;
+        }
+
+        .whiteDotMiddle {
+            border: 0;
+            position: absolute;
+            top: 300px;
+            right: 300px;
+        }
+
+        .whiteDotBottom {
+            border: 0;
+            position: absolute;
+            top: 500px;
+            right: 300px;
+        }
+
+        .contentleftup {
+            border: 0;
+            float: right;
+            position: absolute;
+            top: 350px;
+            right: 445px;
+            width: 325px;
+        }
+
+        .contentleftdown {
+            border: 0;
+            float: left;
+            position: absolute;
+            top: 490px;
+            right: 445px;
+            width: 325px;
+        }
+
+        .contentrightup {
+            border: 0;
+            float: left;
+            position: absolute;
+            top: 350px;
+            left: 445px;
+            width: 325px;
+        }
+
+        .contentrightdown {
+            border: 0;
+            float: left;
+            position: absolute;
+            top: 490px;
+            left: 445px;
+            width: 325px;
+        }
+
+        .angledLine {
+            border: 0;
+            position: absolute;
+            top: 450px;
+            right: 30px;
+        }
+
+        .cursor {
+            border: 0;
+            position: absolute;
+            top: 450px;
+            right: 155px;
+        }
+
+        .midcontainerdiv {
+            border: 0;
+            float: left;
+            position: relative;
+            top: -330px;
+            height: 400px;
+            width: 100%;
+            background-color: ghostwhite;
+        }
+
+        .midcontainerText {
+            border: 0;
+            float: left;
+            position: absolute;
+            left: 360px;
+            bottom: 230px;
+            width: 550px;
+        }
+
+        .midcontainerPic {
+            border: 0;
+            float: left;
+            position: absolute;
+            left: 5px;
+            bottom: -110px;
+        }
+
+
+        .videodiv {
+            border: 0;
+            float: left;
+            position: relative;
+            left: 1045px;
+            bottom: -50px;
+            width: 550px;
+        }
+
+        .barimage {
+            border: 0;
+            position: absolute;
+            top: 250px;
+            right: 50px;
+        }
+
+        .playimage {
+            border: 0;
+            position: absolute;
+            top: 250px;
+            right: 420px;
+        }
+
+        .midblogger {
+            border: 0;
+            float: left;
+            position: relative;
+            bottom: 280px;
+            left: 550px;
+            height: -200px;
+        }
+
+        .containerdiv {
+            border: 0;
+            float: left;
+            position: relative;
+            width: 100%;
+            bottom: 220px;
+            height: 510px;
+        }
+
+        .cornerimage {
+            border: 0;
+            position: absolute;
+            top: 94px;
+            right: 720px;
+            width: 94px;
+        }
+
+
+        @font-face {
+            font-family: myFirstFont;
+            /*src: url(-_Ctzj9b56b8RgXW8FAriQzyDMXhdD8sAj6OAJTFsBI.woff2);*/
+            font-family: LandingPageFont;
+            src: url(../fonts/Raleway/QAUlVt1jXOgQavlW5wEfxQLUuEpTyoUstqEm5AMlJo4.woff2);
+            font-family: font-pacifico;
+            src: url(../fonts/Pacifico/Q_Z9mv4hySLTMoMjnk_rCXYhjbSpvc47ee6xR_80Hnw.woff2);
+        }
+
+        .fonts {
+            font-family: myFirstFont;
+            font-size: 35px;
+            padding: 10px;
+            opacity: 0.7;
+        }
+
+        .Landingfonts {
+            font-family: LandingPageFont;
+            font-size: 45px;
+            /*padding: -60px;*/
+            opacity: 0.7;
+        }
+
+        .fontsSmall {
+            font-family: myFirstFont;
+            font-size: 25px;
+            padding: 10px;
+        }
+
+        .fontsPacifco {
+            font-family: font-pacifico;
+            font-size: 62px;
+            padding: 20px;
+        }
+
+        .contentFocus {
+            border: 0;
+            float: left;
+            position: absolute;
+            top: 75px;
+            left: 810px;
+        }
+
+        .contentFocusText {
+            border: 0;
+            float: left;
+            position: absolute;
+            top: 225px;
+            left: 650px;
+        }
+
+        .downArrow {
+            float: left;
+            position: absolute;
+            top: -50px;
+            left: 205px;
+        }
+
+        .imgFocus {
+            display: block;
+            max-width: 230px;
+            max-height: 95px;
+        }
+
+        .Focus {
+            background-size: contain;
+            height: 675px;
+            width: 100%;
+            background-repeat: no-repeat;
+            background-attachment: fixed; /*text-wrap:none;*/
+            background-image: url('../img/large-banner-image.png');
+        }
